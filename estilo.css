@@ -4,8 +4,8 @@
 }
 body{
     background: rgba(43, 39, 68, 0.185);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-family: comic;
+    font-size: 12px;
 }
 #contenidoprincipal{
     width: 1640px;
@@ -23,12 +23,15 @@ header{
     line-height: 100px;
     color: white ;
     border-bottom: 7px dashed black;
+    font-size: 80px;
 }
 nav{
     background: rgb(63, 145, 156);
     height: 50px;
     border-bottom: 1px solid black;
     color: rgb(225, 248, 15);
+    font-size: 20px;
+    text-align: center;
 }
 nav ul li{
     float: left;
@@ -39,7 +42,7 @@ nav ul li{
     clear: both;
 }
 section{
-    float: left;
+    float: right;
     width: 80%;
     min-height: 650px;
     background: rgb(51, 64, 94);
@@ -60,12 +63,13 @@ article ul li{
     size: 1000px;
 }
 aside{
-    float: left;
-    width: calc(20%-26px);
-    background: yellow;
-    padding: 13px;
+    float: right;
+    width: calc(20%-148.10px);
+    background: transparent;
+    padding: 74.5px;
     min-height: 700px;
 }
+
 footer{
     background: black;
     color: white;
@@ -74,3 +78,7 @@ footer{
     line-height: 50px; 
 
 }
+a:link{
+    color:white
+}
+
