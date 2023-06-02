@@ -5,7 +5,8 @@
 body{
     background: rgba(43, 39, 68, 0.185);
     font-family: comic;
-    font-size: 12px;
+    font-size: 100%;
+    
 }
 #contenidoprincipal{
     width: 1640px;
@@ -52,6 +53,22 @@ article {
     color: white;
     margin: 15px;
     padding-bottom: 10px;
+     
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto 20%;
+    width: calc(95%-40px);
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+.caja{
+    border: 1.5px solid black;
+    background-color:  rgb(211, 17, 17);
+    text-align: center;
+    line-height: 15opx;
     
 }
 article ul li{
@@ -64,10 +81,14 @@ article ul li{
 }
 aside{
     float: right;
-    width: calc(20%-148.10px);
-    background: transparent;
-    padding: 74.5px;
+    width: calc(20%-121.0px);
+    background: yellow;
+    padding: 60.5px;
     min-height: 700px;
+    
+}
+.link{
+    text-decoration: none;
 }
 
 footer{
